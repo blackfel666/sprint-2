@@ -51,4 +51,22 @@ console.log(restoDeNumeros)
 /*Exercici 1.4 nivel 3*/
 
 
+function miFuncion(a, b, c) {
+    console.log (a + b + c)
+}
 
+const num1 = [6, 8, 5]
+
+miFuncion(...num1);
+
+/*Exercici 1.4 nivel 3*/
+
+const uno = { 
+    perro: "luna",
+    gato: "kuro",
+}
+const dos = { 
+    juguete: "pelota",
+ }
+const tres = {...uno, ...dos} 
+console.log(tres)
