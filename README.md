@@ -39,26 +39,15 @@ To clone and run the exercises locally, you will need:
 
 Follow these steps to start working on the exercises in your local environment:
 
-1.  Clone the repository using Git:
+Clone the repository using Git:
     ```bash
     git clone <https://github.com/blackfel666/sprint-2.git>
     ```
-
-2.  Navigate to the project directory:
-    ```bash
-    cd <project-directory>
-    ```
-
-3.  Run any exercise file independently using Node.js:
-    ```bash
-    node <exercise-file-name>.js
-    ```
-
 ***
 
 ## 👤 Author
 
-**Blackfel66**
+**Blackfel666**
 
 ## 📄 License
 
