@@ -1,6 +1,5 @@
 "use strict"
 
-/*Exercici 1.2 nivel 1*/
 
 function potConduir (edat){ return edat >= 18 ? "Pots conduir" : "No pots conduir"}
 
@@ -9,7 +8,6 @@ let estatFinal = potConduir(23)
 console.log(estatFinal)
 
 
-/*Exercici 1.2 nivel 1*/
 
 
 function comparacio (){
@@ -31,7 +29,6 @@ function comparacio (){
 
 comparacio();
 
-/*Exercici 1.2 nivel 2*/
 
 let num = -9
 
@@ -51,7 +48,6 @@ function trobarMaxim(a, b, c){
 
 console.log(`Màxim de (10, 5, 20): ${trobarMaxim(10, 5, 20)}`)
 
-/*Exercici 1.2 nivel 3*/
 
 const nums = [2, 7, 10, 15, 4, 11]
 

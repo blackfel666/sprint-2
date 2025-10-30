@@ -1,20 +1,16 @@
 "use strict"
 
-/*Exercici 1.3 nivel 1*/
 
-function procesar (nombre, callback) {
-    if (typeof callback === 'function'){
-        callback(nombre);
-    } else {
-        console.error("Error: El segon paràmetre no és una funció de callback.")
-    }
+function procesar(nombre, callback) {
+	return callback(nombre);
 }
-procesar("irene","pedro")
+function printNombre(nombre) {
+	return `El nombre es ${nombre}`;
+}
+console.log(procesar(25, printNombre));
 
-/*Exercici 1.3 nivel 1*/
 
 const suma = ( a, b ) => { return a + b }
-
 function calculadora (num1, num2, callback2){
     return callback2 (num1, num2)
 }
@@ -23,7 +19,6 @@ let resultatSuma = calculadora(5, 7, suma)
 console.log (`la suma de 5 y 7 es: ${resultatSuma}`)
 
 
-/*Exercici 1.3 nivel 2*/
 
 function esperarSaludar (nom, retraso) {
     setTimeout(() => { console.log(`¡Hola, ${nom}!`)}, retraso)
@@ -36,7 +31,6 @@ esperarSaludar(nombreUsuario, tiempoEspera)
 
 console.log()
 
-/*Exercici 1.3 nivel 2*/
 
 const transformador = (nom) => { return nom.toUpperCase() };
 
@@ -56,7 +50,6 @@ const nombresFinales = procesarElements(listaNombres, transformador);
 
 console.log(nombresFinales)
 
-/*Exercici 1.3 nivel 3*/
 
 const mostrarResultat = (resultat) => {
     console.log(`cadena procesada: ${resultat}`);

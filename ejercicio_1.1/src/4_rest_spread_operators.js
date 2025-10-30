@@ -1,6 +1,5 @@
 "use strict"
 
-/*Exercici 1.4 nivel 1*/
 
 
 const number = [1, 2, 3]
@@ -9,7 +8,6 @@ const final = [...number, ...noms]
 
 console.log(final)
 
-/*Exercici 1.4 nivel 1*/
 
 function sumar(...nums){
     let total = 0
@@ -21,7 +19,6 @@ function sumar(...nums){
 
 console.log(`suma de 8, 7, 6 : ${sumar(8, 7, 6)}`)
 
-/*Exercici 1.4 nivel 2*/
 
 const obj1 = {
     nombre : "yohann",
@@ -35,7 +32,6 @@ copia.edad = 35;
 
 console.log(copia)
 
-/*Exercici 1.4 nivel 2*/
 
 const numeros = [10, 20, 30, 40, 50];
 
@@ -48,7 +44,6 @@ console.log(segundo)
 console.log(varSum)       
 console.log(restoDeNumeros)
 
-/*Exercici 1.4 nivel 3*/
 
 
 function miFuncion(a, b, c) {
@@ -59,7 +54,6 @@ const num1 = [6, 8, 5]
 
 miFuncion(...num1);
 
-/*Exercici 1.4 nivel 3*/
 
 const uno = { 
     perro: "luna",
